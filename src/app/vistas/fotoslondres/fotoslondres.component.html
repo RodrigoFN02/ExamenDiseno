@@ -1,0 +1,9 @@
+<div class="container">
+  <div class="objeto">
+    <app-card class="card-content" *ngFor="let monumento of monumentos"
+    [nombre]="monumento.nombre"
+    [imagen]="monumento.imagen"
+    [descripcion]="monumento.descripcion"
+    [enlace]="monumento.enlace"></app-card>
+  </div>
+</div>

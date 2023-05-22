@@ -1,0 +1,22 @@
+@import 'colores';
+$fuentetitulo: 'Montserrat', sans-serif;
+$textFont:'Merriweather', serif;
+$menuFont:'EB Garamond', sans-serif;
+
+@mixin fuenteTitulos($tamaño){
+  color: $color2 !important;
+  font-size: $tamaño !important;
+  font-family: $fuentetitulo !important;
+}
+
+@mixin fuenteTexto($tamaño){
+  color: #eee !important;
+  font-size: $tamaño !important;
+  font-family: $textFont !important;
+}
+
+@mixin fuenteMenus($tamaño){
+  color: $color3 !important;
+  font-size: $tamaño !important;
+  font-family: $menuFont !important;
+}
